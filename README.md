@@ -251,23 +251,6 @@ OPENWEATHER_API_KEY=""
 
 ---
 
-## 🚢 **Deployment**
-
-### Deploy to Cloud (Recommended)
-
-```bash
-# Backend deployment (Heroku/Railway)
-git push heroku main
-
-# Frontend deployment (Vercel/Netlify)
-cd frontend
-vercel deploy
-
-# Database migration
-npx prisma migrate deploy
-```
-
-
 ## 🔮 **Future Roadmap**
 
 - [ ] **Mobile App** - React Native for collectors

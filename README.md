@@ -1,8 +1,4 @@
-I'll create a comprehensive, winning README.md for your Smart Waste Management System hackathon project. This will impress judges with its completeness and professionalism.
 
-## 📁 **File: README.md**
-
-```markdown
 # ♻️ Smart Waste Management System
 
 ## AI-Powered Waste Management Solution for Sustainable Cities
@@ -95,94 +91,6 @@ An **AI-Powered Smart Waste Management System** that:
 - Route Optimization Algorithm (Weighted TSP)
 - Predictive Analytics (Rule-based with festival factors)
 - IoT Sensor Simulation
-```
-
----
-
-## 📊 **System Architecture**
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    SMART WASTE MANAGEMENT SYSTEM                │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐      │
-│  │   HOUSEHOLD  │    │   COLLECTOR  │    │    ADMIN     │      │
-│  │   DASHBOARD  │    │   DASHBOARD  │    │   DASHBOARD  │      │
-│  └──────┬───────┘    └──────┬───────┘    └──────┬───────┘      │
-│         │                   │                   │               │
-│         └───────────────────┼───────────────────┘               │
-│                             ▼                                   │
-│  ┌──────────────────────────────────────────────────────────┐  │
-│  │                    API GATEWAY (Node.js)                 │  │
-│  │                    WebSocket Server                       │  │
-│  └──────────────────────────────────────────────────────────┘  │
-│         │                   │                   │               │
-│         ▼                   ▼                   ▼               │
-│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐      │
-│  │    AI/ML     │    │   DATABASE   │    │   STORAGE    │      │
-│  │  Services    │    │   (SQLite)   │    │  (Uploads)   │      │
-│  └──────────────┘    └──────────────┘    └──────────────┘      │
-│                                                                  │
-└─────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## 📁 **Project Structure**
-
-```
-SmartWasteManagementSystem1/
-├── 📁 frontend/                    # Pure HTML/CSS/JS Frontend
-│   ├── index.html                  # Landing page
-│   ├── login.html                  # Authentication
-│   ├── register.html               # User registration
-│   ├── 📁 dashboard/
-│   │   ├── admin.html              # Admin dashboard
-│   │   ├── collector.html          # Collector dashboard
-│   │   └── household.html          # Household dashboard
-│   ├── 📁 pages/
-│   │   ├── scanner.html            # QR scanner
-│   │   ├── report.html             # Garbage reporting
-│   │   ├── rewards.html            # Rewards marketplace
-│   │   └── leaderboard.html        # Gamification leaderboard
-│   ├── 📁 css/
-│   │   ├── style.css               # Main styles
-│   │   └── responsive.css          # Mobile responsive
-│   └── 📁 js/
-│       ├── api.js                  # API client
-│       ├── auth.js                 # Authentication
-│       ├── ai.js                   # TensorFlow.js AI
-│       ├── charts.js               # Chart.js integration
-│       └── socket.js               # WebSocket client
-│
-├── 📁 backend/                      # Node.js + Express
-│   ├── server.js                   # Main server
-│   ├── 📁 controllers/             # Business logic
-│   │   ├── authController.js
-│   │   ├── wasteController.js
-│   │   ├── collectorController.js
-│   │   └── adminController.js
-│   ├── 📁 routes/                  # API endpoints
-│   │   ├── auth.js
-│   │   ├── waste.js
-│   │   ├── collector.js
-│   │   └── admin.js
-│   ├── 📁 middleware/              # Auth, upload, rate limiting
-│   ├── 📁 services/                # AI & business services
-│   │   ├── aiService.js
-│   │   ├── routeOptimizer.js
-│   │   └── predictionService.js
-│   └── 📁 database/                # Database connection & seeds
-│
-├── 📁 prisma/                       # Database ORM
-│   ├── schema.prisma               # Database schema
-│   └── dev.db                      # SQLite database
-│
-├── 📁 ai-model/                     # ML Models (future use)
-├── .env                            # Environment variables
-├── package.json                    # Dependencies
-└── README.md                       # Documentation
 ```
 
 ---
@@ -359,17 +267,6 @@ vercel deploy
 npx prisma migrate deploy
 ```
 
-### Docker Deployment
-
-```bash
-# Build image
-docker build -t smart-waste .
-
-# Run container
-docker run -p 5000:5000 -p 3000:3000 smart-waste
-```
-
----
 
 ## 🔮 **Future Roadmap**
 
@@ -391,24 +288,11 @@ docker run -p 5000:5000 -p 3000:3000 smart-waste
 | AI/ML Engineer        | Rahul Sharma        | development, AI integration   |
 | Frontend Developer    | Pragyan Kumar       | dashboards                    |
 | Interface Designer    | Shikar Chaturvedi   | UI/UX                         |
-| Data Collector        | Anushika Sinha      |                               |       
+| Data Collector        | Anushika Sinha      | Testing & Debugging           |       
 | Reaserch              | Shalini Tiwari      | Data Reaserch                 |
 
 ---
 
-## 📧 **Contact**
-
-- Project Link: [GitHub Repository](https://github.com/AKtime12/smart-waste-management)
-- Demo Video: 
-- Live Demo: 
-
----
-
-## 📝 **License**
-
-MIT License - see [LICENSE](LICENSE) file
-
----
 
 ## 🙏 **Acknowledgments**
 
